@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="./output.css" rel="stylesheet">
+	<script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+	<link rel="icon" type="image/png" href="Pictures/favicon.png">
+	<title>Подтверждение СМС</title>
+</head>
+<body>
+	<header class="relative">
+		<div class="relative w-full mt-10">
+
+			<h2 class="text-center text-3xl text-black">
+				Подтверждение СМС
+			</h2>
+			<span
+				class="iconify absolute left-[20px] top-1/2 -translate-y-1/2 text-2xl"
+				data-icon="line-md:arrow-left"
+				data-inline="false"
+				style="font-size: 30px; color: black;"
+			></span>
+		</div>
+	</header>
+
+	<main>
+		<div class="flex justify-center mt-20">
+			<img src="/src/Pictures/logo.png" alt="Логотип приложения">
+		</div>
+
+		<div class="flex justify-center items-center flex-col mt-20">
+			<form id="smsForm" class="flex flex-col items-center mt-4 gap-7">
+				<input
+					id="smsCodeInput"
+					type="number"
+					placeholder="Код из СМС"
+					class="border-0 border-b-2 border-orange-500 pb-1 mb-2 w-xs focus:outline-none"
+				>
+
+				<div id="errorWrapper" class="w-xs text-left hidden">
+					<span id="errorMessage" class="text-orange-500 text-sm">
+						Неверный номер
+					</span>
+				</div>
+
+				<button
+					id="confirmButton"
+					type="submit"
+					class="bg-orange-500 text-white rounded p-2 inline-block text-center w-xs"
+				>
+					Подтвердить
+				</button>
+			</form>
+		</div>
+	</main>
+
+	<script src="sms.js"></script>
+</body>
+</html>

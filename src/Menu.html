@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <link rel="icon" type="image/png" href="Pictures/favicon.png"> 
+    <title>Меню></title>
+    <link href="./output.css" rel="stylesheet">
+
+</head>
+<body>
+<header class="relative">
+  <div class="relative w-full mt-10">
+    <span
+      class="iconify absolute left-5 top-1/2 -translate-y-1/2"
+      data-icon="iconoir:delivery-truck"
+      data-inline="false"
+      style="font-size: 30px; color: #FF6900;"
+    ></span>
+
+    <div class="flex flex-col items-center">
+      <span class="text-xs text-orange-500 font-light">
+        Доставка курьером
+      </span>
+      <span class="text-xs text-black font-light">
+        ул. Миклухо-Маклая, 55, Москва
+      </span>
+    </div>
+  </div>
+
+  <form class="flex items-center gap-3 relative">
+    <div class="relative flex-1 p-4">
+      <input
+        type="text"
+        placeholder="Поиск"
+        class="w-xs h-10 pl-10 border border-gray-100 rounded-xl text-sm text-gray-500 shadow-md focus:outline-none"
+      />
+      <span
+        class="iconify absolute left-7 top-1/2 -translate-y-1/2"
+        data-icon="material-symbols-light:search"
+        data-inline="false"
+        aria-hidden="true"
+        style="font-size: 18px;"
+      ></span>
+    </div>
+
+    <span
+      class="iconify absolute right-2 top-1/2 -translate-y-1/2"
+      data-icon="gala:settings"
+      data-inline="false"
+      aria-hidden="true"
+      style="font-size: 35px;"
+    ></span>
+  </form>
+</header>
+
+
+<main>
+  <div class="flex justify-center items-center bg-orange-400 h-15">
+    <span class="text-white text-xl">ХИТЫ ПРОДАЖ</span>
+  </div>
+
+  <div class="flex justify-start items-start gap-4 mt-4 px-4 overflow-x-auto">
+    
+    <article class="bg-white p-4 rounded-lg shadow-md flex-shrink-0">
+      <img src="Pictures/productImage.png" alt="Product 1">
+      <h3 class="text-sm font-semibold mt-2">Продукт 1</h3>
+      <p class="text-gray-500 text-xs">Описание товара</p>
+      <div class="flex justify-center items-center gap-2 mt-2">
+        <span class="text-orange-500 font-semibold text-xs">49 999 р.</span>
+        <button class="bg-orange-500 text-white text-xs font-light rounded p-2">
+          Подробнее о модели
+        </button>
+      </div>
+    </article>
+
+    <article class="bg-white p-4 rounded-lg shadow-md flex-shrink-0">
+      <img src="Pictures/productImage.png" alt="Product 1">
+      <h3 class="text-sm font-semibold mt-2">Продукт 1</h3>
+      <p class="text-gray-500 text-xs">Описание товара</p>
+      <div class="flex justify-center items-center gap-2 mt-2">
+        <span class="text-orange-500 font-semibold text-xs">49 999 р.</span>
+        <button class="bg-orange-500 text-white text-xs font-light rounded p-2">
+          Подробнее о модели
+        </button>
+      </div>
+    </article>
+
+    <article class="bg-white p-4 rounded-lg shadow-md flex-shrink-0">
+      <img src="Pictures/productImage.png" alt="Product 1">
+      <h3 class="text-sm font-semibold mt-2">Продукт 1</h3>
+      <p class="text-gray-500 text-xs">Описание товара</p>
+      <div class="flex justify-center items-center gap-2 mt-2">
+        <span class="text-orange-500 font-semibold text-xs">49 999 р.</span>
+        <button class="bg-orange-500 text-white text-xs font-light rounded p-2">
+          Подробнее о модели
+        </button>
+      </div>
+    </article>
+  </div>
+</main>
+
+</body>
+</html>
+

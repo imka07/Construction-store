@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="./output.css" rel="stylesheet">
+	<link rel="icon" type="image/png" href="Pictures/favicon.png">
+	<title>Магазин Строитель</title>
+</head>
+<body class="flex flex-col min-h-screen min-w-screen">
+	<div id="app"></div>
+	<header>
+		<div class="flex justify-center mt-18">
+			<img src="/src/Pictures/logo.png" alt="Логотип приложения">
+		</div>
+	</header>
+
+	<main class="flex-1">
+		<div class="flex justify-start items-center flex-col mt-20">
+			<span class="flex justify-center text-orange-500 text-sm">Вход в приложение Магазин Строитель</span>
+			<form class="flex flex-col items-center mt-4 gap-7">
+				<input type="tel" placeholder="Номер мобильного телефона" class="border-0 border-b-2 border-orange-500 pb-1 mb-2 w-xs focus:outline-none">
+				<button type="button" class="bg-orange-500 text-white rounded p-2 w-xs" onclick="window.location.href='RegistrationPage.html';">Войти</button>
+		</div>
+	</main>
+
+	<footer>
+		<div class="flex justify-center items-center mb-4">
+			<a href="RegistrationPage.html" class="text-orange-500 text-sm">Зарегистрироваться</a>
+		</div>
+	</footer>
+
+	<script type="module" src="/main.js"></script>
+</body>
+</html>
