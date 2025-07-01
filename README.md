@@ -70,11 +70,11 @@
 ## 📸 Скриншоты
 
 <div align="center">
-  <img src="Screens/1.png" alt="Экран 1" width="45%" />
-  <img src="Screens/2.png" alt="Экран 2" width="45%" />
+  <img src="Screens/1.png" alt="Экран 1" width="20%" />
+  <img src="Screens/2.png" alt="Экран 2" width="20%" />
   <br><br>
-  <img src="Screens/3.png" alt="Экран 3" width="45%" />
-  <img src="Screens/4.png" alt="Экран 4" width="45%" />
+  <img src="Screens/3.png" alt="Экран 3" width="20%" />
+  <img src="Screens/4.png" alt="Экран 4" width="20%" />
 </div>
 
 
